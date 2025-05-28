@@ -1,4 +1,4 @@
-# Can LLMs Model the Environmental Impact on SSD?
+# Modeling Environmental Impact on SSD using LLM
 
 This repository accompanies the paper accepted at **ACM HotStorage 2025**, titled *"Can LLMs Model the Environmental Impact on SSD?"*
 
