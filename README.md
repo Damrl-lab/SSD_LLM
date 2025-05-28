@@ -4,7 +4,7 @@ This repository accompanies the paper accepted at **ACM HotStorage 2025**, title
 
 ## Overview
 
-This work explores the use of Large Language Models (LLMs) to predict how environmental factors such as temperature, humidity, and vibration, affect the performance of Solid State Drives (SSDs). The goal is to understand whether LLMs, when combined with techniques like Chain-of-Thought prompting and Retrieval-Augmented Generation (RAG), can reason about environmental degradation patterns and provide useful forecasts of tail latency and bandwidth shifts.
+This work explores the use of Large Language Models (LLMs) to predict how environmental factors such as temperature, humidity, and vibration, affect the performance of Solid State Drives (SSDs). The goal is to understand whether LLMs, when combined with techniques like Chain-of-Thought prompting and Retrieval-Augmented Generation (RAG), can reason about environmental degradation patterns and provide useful information about the performance metric like tail latency and bandwidth shifts.
 
 The repository contains:
 
