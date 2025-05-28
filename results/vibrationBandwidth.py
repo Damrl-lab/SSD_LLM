@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the data from Excel
-data = pd.read_excel("vibrationBandwidth.xlsx", sheet_name='Sheet1')
+data = pd.read_excel("results_data/vibrationBandwidth.xlsx", sheet_name='Sheet1')
 
 # Clean the data and rename columns for easier handling
 data.columns = ['vibration type', 'GT', 'LLM', 'read/write']

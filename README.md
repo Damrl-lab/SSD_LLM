@@ -23,7 +23,9 @@ The repository contains:
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
-   
+ 
+## Citation
+To acknowledge the use of the work, please cite the following paper
 ```
 @inproceedings{ssd_llm_25,
   title     = {Can LLMs Model the Environmental Impact on SSD?},
