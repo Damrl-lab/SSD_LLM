@@ -19,11 +19,32 @@ The repository contains:
 - `scripts/` – Evaluation scripts and plotting tools
 
 ## Getting Started
+### 1) Clone the repo & install dependencies
+```
+git clone https://github.com/Damrl-lab/SSD_LLM.git
+cd your-repo
+pip install -r requirements.txt
+```
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
- 
+### 2) Configure your OpenAI API key
+export OPENAI_API_KEY="sk-YOUR_KEY_HERE"
+
+### 3) Evaluate your prompt against the ground‐truth data
+```
+python prompt_eng.py \
+  --data path/to/your_data.xlsx \
+  --gt-col tail_latency \
+  --api-key $OPENAI_API_KEY \
+  --model gpt-4 \
+  --limit 100
+```
+### 4) Run the RAG retrieval + GPT-4 workflow
+```
+python main.py \
+  --api-key $OPENAI_API_KEY \
+  --query "How does temperature affect tail latency?" \
+  --top-k 2
+```
 ## Citation
 To acknowledge the use of the work, please cite the following paper
 ```
