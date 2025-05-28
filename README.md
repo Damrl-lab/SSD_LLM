@@ -24,12 +24,13 @@ The repository contains:
    ```bash
    pip install -r requirements.txt
    
-
-@inproceedings{SSD_LLM,
+```
+@inproceedings{ssd_llm_25,
   title     = {Can LLMs Model the Environmental Impact on SSD?},
   author    = {Mayur Akewar, Gang Quan, Sandeep Madireddy, Janki Bhimani},
   booktitle = {Proceedings of the 17th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage)},
   year      = {2025},
   publisher = {ACM}
 }
+```
 
