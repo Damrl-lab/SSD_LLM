@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ```
 
 ### 2) Configure your OpenAI API key
-export OPENAI_API_KEY="sk-YOUR_KEY_HERE"
+Obtain your OpenAI API key by logging into your account at platform.openai.com and copying the secret key from the “API Keys” section.
 
 ### 3) Evaluate your prompt against the ground‐truth data
 ```
